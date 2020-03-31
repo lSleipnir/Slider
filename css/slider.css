@@ -37,8 +37,6 @@ img {
 	border: 25px solid white;
 	border-radius: 30px;
 	box-shadow: 2px 2px 5px black;
-	display: flex;
-	align-items: center;
 }
 
 h2 {
@@ -50,3 +48,12 @@ h2 {
 	display: none;
 }
 
+figure {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+figcaption {
+	flex-basis: 100%;
+}
